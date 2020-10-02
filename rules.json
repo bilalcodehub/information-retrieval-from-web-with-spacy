@@ -1,0 +1,25 @@
+{ "rules":
+    [
+        {"label": "COMPANY",   "pattern":[{"lower": "mtn"}, {"lower": "nigeria"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "pwc"}]},
+         {"label": "ORG",       "pattern":[{"lower": "cbn"}]},
+         {"label": "CARDINAL",  "pattern":[{"lower": "bank"},{"lower": "verification"},{"lower": "number"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "enhancing"},{"lower": "financial"},{"lower": "innovation"},{"text": "&"},{"lower": "access"},{"text": "("},{"lower": "efina"},{"text": ")"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "efina"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "piggybank"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "palmpay"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "opay"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "adelia"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "flutterwave"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "andela"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "interswitch"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "nigeria"},{"lower": "inter"},{"text": "-"},{"lower": "bank"},{"lower": "settlement"},{"lower": "system"},{"text": "("},{"lower": "nibss"},{"text": ")"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "nigeria"},{"lower": "'s"},{"lower": "deposit"},{"lower": "insurance"},{"lower": "corporation"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "nibss"}]},
+         {"label": "COMPANY",   "pattern":[{"lower": "paga"}]},
+         {"label": "SECTOR",    "pattern":[{"lower": "fintech"}]},
+         {"label": "SECTOR",    "pattern":[{"lower": "teclo"}]},
+         {"label": "SECTOR",    "pattern":[{"lower": "telcos"}]}, 
+         {"label": "JOBTITLE",  "pattern":[{"lower": "co"},{"text": "-"},{"lower": "founder"}]}
+    ]
+}
